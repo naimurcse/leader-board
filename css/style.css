@@ -1,6 +1,6 @@
 /* Google Fonts Import */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Raleway:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Raleway:wght@300;400;700&display=swap');
 
 /* font-family: 'Raleway', sans-serif; */
 
@@ -18,6 +18,15 @@ body {
 
 .container {
     width: 870px;
+}
+
+.section-title {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 30px;
+    padding-left: 30px;
+    color: #562EFF;
+    font-weight: 500;
+    font-size: 24px;
 }
 
 
@@ -106,12 +115,43 @@ main {
 
 .top-section {
     background: #fff;
+    margin-top: 20px;
+    border-radius: 6px;
 }
 
 
 /* Top Player Section Start */
 
 .top-player {}
+
+.top-player hr {
+    border: 1px solid #D1D1D1;
+    margin: 0 30px;
+    display: block;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 26px 10px;
+    padding: 30px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    display: block;
+    width: 56px;
+}
+
+.player h3 {
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 16px;
+}
 
 
 /* Top Player Section End */
@@ -120,6 +160,24 @@ main {
 /* Top Blog Section Start */
 
 .top-blog {}
+
+.top-blog .section-title {}
+
+.blogs {}
+
+.blog {}
+
+.thumbnail {}
+
+.thumbnail img {}
+
+.blog-content {}
+
+.blog-content h3 {}
+
+.blog-content p {}
+
+.blog-content p span {}
 
 
 /* Top Blog Section End */
