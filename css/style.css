@@ -2,7 +2,90 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Raleway:wght@300;400;700&display=swap');
 
-/* font-family: 'Poppins', sans-serif; */
-
-
 /* font-family: 'Raleway', sans-serif; */
+
+
+/* Utilities Style*/
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 870px;
+}
+
+
+/* Header Start */
+
+header {
+    background-color: #562EFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 19px 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+}
+
+.logo-area img {
+    width: 40px;
+    display: block;
+    height: 50px;
+}
+
+.logo-area h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin: 0;
+    padding-left: 15px;
+}
+
+.nav-area {
+    display: flex;
+    align-items: center;
+}
+
+.nav-area ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-area ul li {
+    list-style: none;
+}
+
+.nav-area ul li a {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    /* identical to box height */
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 36px;
+}
+
+.nav-area ul li a:hover {}
+
+.profile-icon {}
+
+.profile-icon img {
+    width: 51px;
+    display: block;
+}
+
+
+/* Header End */
