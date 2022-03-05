@@ -212,6 +212,34 @@ main {
     border-radius: 6px;
 }
 
+.courses {}
+
+.course {}
+
+.course-thumbnail {}
+
+.course-thumbnail img {}
+
+.course h2 {}
+
+.course p {}
+
+.course-info {}
+
+.course-info ul {}
+
+.course-info ul li {}
+
+.course-info ul li i {}
+
+.course-info p {}
+
+.course-duration {}
+
+.course-duration i {}
+
+.course-duration p {}
+
 
 /* Lates Course Section End */
 
