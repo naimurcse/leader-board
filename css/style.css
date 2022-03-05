@@ -189,7 +189,8 @@ main {
 
 .blog-content h3 {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
+    margin-bottom: 12px;
 }
 
 .blog-content p {
@@ -236,18 +237,17 @@ main {
 
 .course h2 {
     font-weight: 600;
-    font-size: 20px;
     color: #1E1E1E;
-    /* width: 80%; */
     margin-top: 20px;
     line-height: 1.4;
+    font-size: 17px;
 }
 
 .course p {
     color: #ED6B4F;
     font-size: 14px;
     font-weight: 400;
-    margin-top: 5px;
+    margin-top: 8px;
 }
 
 .course-info {
@@ -271,16 +271,27 @@ main {
     font-size: 14px;
 }
 
-.course-info p {}
+.course-info p {
+    margin: 0;
+}
 
 .course-duration {
     display: flex;
     align-items: center;
+    background-color: #ffe3e3;
+    padding: 3px 7px;
+    border-radius: 15px;
 }
 
-.course-duration i {}
+.course-duration i {
+    color: #ed6b4f;
+}
 
-.course-duration p {}
+.course-duration p {
+    margin: 0;
+    margin-left: 5px;
+    font-size: 14px;
+}
 
 
 /* Lates Course Section End */
