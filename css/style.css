@@ -7,6 +7,10 @@
 
 /* Utilities Style*/
 
+* {
+    margin: 0;
+}
+
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -89,3 +93,44 @@ header {
 
 
 /* Header End */
+
+
+/* Main Start */
+
+main {
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-section {
+    background: #fff;
+}
+
+
+/* Top Player Section Start */
+
+.top-player {}
+
+
+/* Top Player Section End */
+
+
+/* Top Blog Section Start */
+
+.top-blog {}
+
+
+/* Top Blog Section End */
+
+
+/* Lates Course Section Start */
+
+.lates-course {}
+
+
+/* Lates Course Section End */
+
+
+/* Main Start */
