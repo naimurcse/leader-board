@@ -89,9 +89,12 @@ header {
     color: #FFFFFF;
     text-decoration: none;
     margin-right: 36px;
+    transition: color 0.3s;
 }
 
-.nav-area ul li a:hover {}
+.nav-area ul li a:hover {
+    color: #2fecff;
+}
 
 .profile-icon {}
 
